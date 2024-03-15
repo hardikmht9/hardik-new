@@ -19,7 +19,7 @@ jobs:
  
   steps:
   - name: My Name
-    uses: echo "${{env.Name}}"
+    uses: echo $env.Name
 
   - name: Checkout repository
  
